@@ -1,0 +1,107 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+#container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #bbc6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 700px;
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.quote h1 {
+    font-size: 3.2rem;
+}
+
+hr {
+    background: rgb(23, 124, 229);
+    width: 100px;
+    height: 4px;
+    margin-block: 1px 25px;
+}
+
+.quote p {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+.quote-author {
+    width: 100%;
+    text-align: right;
+    margin-block: 30px;
+}
+.quote-author span {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.quote-author span::before{
+    content: '';
+    background-color: rgb(23, 124, 229);
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    top: 45%;
+    left: -30px;
+}
+
+.quote-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+#btn-1 {
+    padding: 1.5rem 3rem;
+    border: 0;
+    border-radius: 5rem;
+    background-color: rgb(23, 124, 229);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+#btn-2{
+    padding: 1.5rem 3rem;
+    border: 0;
+    border-radius: 5rem;
+    background-color: rgb(23, 124, 229);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+#btn-2 i{
+    margin-left: 5px;
+}
+#btn-3 {
+    padding: 1.5rem 3rem;
+    border: 1px solid black;
+    border-radius: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    font-size: 1.6rem;
+    display: none;
+}
+
+#btn-3 i {
+    margin-right: 10px;
+}

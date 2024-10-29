@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="quote" id="quote">
+            <h1>Quote of the day</h1>
+            <hr>
+            <p id="quote-text">Loading...</p>
+            <div class="quote-author">
+                <span id="author">Loading...</span>
+            </div>
+            <div class="quote-buttons">
+                <button id="btn-1">New Quote</button>
+                <button id="btn-2" onclick="copyText()">Copy <i class="fa-regular fa-copy fa-lg"
+                        style="color: #fff;"></i></button>
+                <button id="btn-3" onclick="faceBook()"><i class="fa-brands fa-facebook fa-lg"
+                        style="color: #0d4ad9;"></i>Share</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js">     
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
